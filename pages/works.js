@@ -32,7 +32,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>          
           <WorkGridItem id="biotech" title="Biotech EPN" thumbnail={thumbBiotech}>
-            Club Software's project, analysis of DNA and ARN sequences
+            Club Software&apos;s project, analysis of DNA and ARN sequences
           </WorkGridItem>
         </Section>
 
