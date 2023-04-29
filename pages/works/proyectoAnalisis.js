@@ -17,7 +17,7 @@ import {
           Project Analysys Data <Badge>2023-</Badge>
         </Title>
         <P>
-            It's a project that takes five different sources, such as web scrapy, csv, APIs, etc. The analysis is done with EDA and the visualizations are done in Power Bi.
+            It is a project that takes five different sources, such as web scrapy, csv, APIs, etc. The analysis is done with EDA and the visualizations are done in Power Bi.
         </P>
         <List ml={4} my={4}>          
           <ListItem>
