@@ -34,8 +34,8 @@ const Page = () => {
                     I have worked on recent projects in biology and automation.  
                     I know Machine Learning and Web Scraping. 
                     If you want to see the project{' '}
-                    <NextLink href="/works/biotech">
-                        <Link> BiotechEPN </Link>
+                    <NextLink href="/works/proyectoAnalisis">
+                        <Link> Project AD Power BI </Link>
                     </NextLink>
                 </Paragraph>
                 <Box align="center" my={4}>
@@ -50,11 +50,7 @@ const Page = () => {
             <Section delay={0.2}>
                 <Heading as="h3" variant="section-title">
                     Bio
-                </Heading>
-                <BioSection>
-                    <BioYear>2002</BioYear>
-                    Born in Quito, Ecuador.
-                </BioSection>
+                </Heading>                
                 <BioSection>
                     <BioYear>2020</BioYear>
                     I started my studies of Superior Technology of Software Development at the Escuela Politecnica Nacional del Ecuador (National Polytechnic School of Ecuador).
@@ -66,7 +62,15 @@ const Page = () => {
                 <BioSection>
                     <BioYear>2022</BioYear>
                     Doing my first Data Science Project (BiotechEPN)
-                </BioSection>        
+                </BioSection>
+                <BioSection>
+                    <BioYear>2023</BioYear>
+                    Doing my first Data Analist Project (Project AD)
+                </BioSection> 
+                <BioSection>
+                    <BioYear>2023</BioYear>
+                    Working in Handytec Mobi how Pasant(Product)
+                </BioSection> 
             </Section>
 
             <Section delay={0.3}>

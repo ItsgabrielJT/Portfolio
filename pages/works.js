@@ -6,6 +6,7 @@ import thumbEcoPhar from '../public/images/works/ecopharmacy-eyecatch.png'
 import thumbBiotech from '../public/images/works/biotech-eyecatch.jpg'
 import thumbFlyteek from '../public/images/works/imageanalysis-eyecatch.jpg'
 import thumbNvim from '../public/images/works/nvim-eyecatch.jpg'
+import thumbPAD from '../public/images/works/projectAD.png'
 
 const Works = () => (
   <Layout>
@@ -16,11 +17,10 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>        
-          <WorkGridItem id="EcoPharmacy" thumbnail={thumbEcoPhar} title="EcoPharmacy">
-            A system of pharmacy make in Java
+          <WorkGridItem id="proyectoAnalisis" thumbnail={thumbPAD} title="Project AD">
+            Data analysis done in Power BI
           </WorkGridItem>
-        </Section>
-
+        </Section>        
       </SimpleGrid>
       <Section delay={0.2}>
         <Divider my={6} />
@@ -55,6 +55,11 @@ const Works = () => (
         <Section delay={0.5}>
           <WorkGridItem id="nvim" thumbnail={thumbNvim} title="NeoVim Configuration">
             NeoVim configuration for linux, edit your code how an IDE
+          </WorkGridItem>
+        </Section>
+        <Section>        
+          <WorkGridItem id="ecoPharmacy" thumbnail={thumbEcoPhar} title="EcoPharmacy">
+            A system of pharmacy make in Java
           </WorkGridItem>
         </Section>
       </SimpleGrid>
