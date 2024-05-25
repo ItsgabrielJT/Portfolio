@@ -7,6 +7,8 @@ import thumbBiotech from '../public/images/works/biotech-eyecatch.jpg'
 import thumbFlyteek from '../public/images/works/imageanalysis-eyecatch.jpg'
 import thumbNvim from '../public/images/works/nvim-eyecatch.jpg'
 import thumbPAD from '../public/images/works/projectAD.png'
+import thumbRockwell from '../public/images/works/rockwell.png'
+import thumbProjectCore from '../public/images/works/projectCore.png'
 
 const Works = () => (
   <Layout>
@@ -21,6 +23,11 @@ const Works = () => (
             Data analysis done in Power BI
           </WorkGridItem>
         </Section>        
+        <Section>        
+          <WorkGridItem id="projectCore" thumbnail={thumbProjectCore} title="Red Social Project">
+            Plataform Colaborative with projects
+          </WorkGridItem>
+        </Section>        
       </SimpleGrid>
       <Section delay={0.2}>
         <Divider my={6} />
@@ -33,6 +40,12 @@ const Works = () => (
         <Section delay={0.3}>          
           <WorkGridItem id="biotech" title="Biotech EPN" thumbnail={thumbBiotech}>
             Club Software&apos;s project, analysis of DNA and ARN sequences
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.3}>          
+          <WorkGridItem id="rockwellRCB" title="Rockwell RCB Trace" thumbnail={thumbRockwell}>
+            RCB TRACE project, platform web for companies
           </WorkGridItem>
         </Section>
 
