@@ -5,7 +5,7 @@ import NextLink from 'next/link'
 import { ChevronRightIcon } from "@chakra-ui/icons"
 import { BioSection, BioYear } from "../components/bio"
 import Layout from "../components/layouts/article"
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
 const Page = () => {
     return (
